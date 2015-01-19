@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/12AccessTaiwan/!svn/ver/44/trunk/src/main/java/accesstaiwan/dao/transportation/impl
+END
+TrainDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/12AccessTaiwan/!svn/ver/59/trunk/src/main/java/accesstaiwan/dao/transportation/impl/TrainDAOImpl.java
+END
+PriceDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/12AccessTaiwan/!svn/ver/43/trunk/src/main/java/accesstaiwan/dao/transportation/impl/PriceDAOImpl.java
+END
+StopDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/12AccessTaiwan/!svn/ver/59/trunk/src/main/java/accesstaiwan/dao/transportation/impl/StopDAOImpl.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/12AccessTaiwan/!svn/ver/46/trunk/src/main/webapp/WEB-INF
+END
+mongo-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/12AccessTaiwan/!svn/ver/61/trunk/src/main/webapp/WEB-INF/mongo-config.xml
+END
+spring-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/12AccessTaiwan/!svn/ver/46/trunk/src/main/webapp/WEB-INF/spring-servlet.xml
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/12AccessTaiwan/!svn/ver/41/trunk/src/main/webapp/WEB-INF/applicationContext.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/12AccessTaiwan/!svn/ver/41/trunk/src/main/webapp/WEB-INF/web.xml
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/12AccessTaiwan/!svn/ver/52/trunk/src/main/java/accesstaiwan/model/transportation/hsr
+END
+Price.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/12AccessTaiwan/!svn/ver/22/trunk/src/main/java/accesstaiwan/model/transportation/hsr/Price.java
+END
+StopTime.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/12AccessTaiwan/!svn/ver/22/trunk/src/main/java/accesstaiwan/model/transportation/hsr/StopTime.java
+END
+Stop.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/12AccessTaiwan/!svn/ver/49/trunk/src/main/java/accesstaiwan/model/transportation/hsr/Stop.java
+END
+Train.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/12AccessTaiwan/!svn/ver/50/trunk/src/main/java/accesstaiwan/model/transportation/hsr/Train.java
+END

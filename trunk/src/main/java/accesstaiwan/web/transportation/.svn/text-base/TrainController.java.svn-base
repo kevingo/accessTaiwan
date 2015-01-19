@@ -1,0 +1,49 @@
+package accesstaiwan.web.transportation;
+
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import accesstaiwan.dao.transportation.impl.TrainDAOImpl;
+import accesstaiwan.misc.HSRDataProcessing;
+import accesstaiwan.model.transportation.hsr.Stop;
+import accesstaiwan.model.transportation.hsr.Train;
+
+@Controller
+@RequestMapping("traffic")
+public class TrainController {
+	
+	@Resource(name="TrainDAOImpl")
+	private TrainDAOImpl dao;
+	
+	@RequestMapping(value="hsr/trains/add", method = RequestMethod.GET)
+	public @ResponseBody List<Train> add() {
+		return dao.list();
+	}
+	
+	@RequestMapping(value="hsr/trains", method = RequestMethod.GET)
+	public @ResponseBody List<Train> showAllStops() {		
+		return dao.list();
+	}
+	
+	@RequestMapping(value="hsr/trains/{id}", method = RequestMethod.GET)
+	public @ResponseBody List<Train> showStopById(@PathVariable String id) {
+		return dao.get(id);
+	}
+	
+	@RequestMapping(value="hsr/trains/{to}", method = RequestMethod.GET)
+	public @ResponseBody List<Train> showStopByTo(@PathVariable String to) {
+		return dao.getTrainByStop(to);
+	}	
+	
+	@RequestMapping(value="hsr/trains/{from}/{to}", method = RequestMethod.GET)
+	public @ResponseBody List<Train> showStopByFromTo(@PathVariable String from, @PathVariable String to) {
+		return dao.getTrainByStop(from, to);
+	}	
+}
